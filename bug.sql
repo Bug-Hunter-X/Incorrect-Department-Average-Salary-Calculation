@@ -1,0 +1,1 @@
+The following SQL query uses a subquery that is not correlated to the outer query.  This can lead to unexpected results and performance issues.  The subquery calculates the average salary of all employees, regardless of the department.  Therefore, the outer query will return the same average salary for every department.
